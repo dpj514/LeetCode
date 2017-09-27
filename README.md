@@ -1,5 +1,6 @@
 # LintCode
 Javascript Solutions to problems on LintCode
+
 | #        | question                                 |  difficulty  |
 | -------- |      ----------------------------        | :---------:  |
 | 1        | Two Sum                                  | Easy         |
