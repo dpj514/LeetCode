@@ -133,3 +133,4 @@ var longestPalindrome = function(s) {
         }
     }
     return s.slice(center-maxR+1,center+maxR).split('#').join('')
+}
