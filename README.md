@@ -1,4 +1,4 @@
-# LintCode
+# LeetCode
 Javascript Solutions to problems on LintCode
 
 | #        | question                                          |  difficulty  |
