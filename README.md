@@ -9,6 +9,7 @@ Javascript Solutions to problems on LintCode
 | 4        | Median of Two Sorted Arrays                       | Hard         |
 | 5        | Longest Palindromic Substring                     | Medium       |
 | 7        | Reverse Integer                                   | Easy         |
+| 10       | Regular Expression Matching                       | Difficult    |
 | 13       | Roman to Integer                                  | Easy         |
 | 26       | Remove Duplicates from Sorted Array               | Easy         |
 | 191      | Number of 1 Bits                                  | Easy         |
