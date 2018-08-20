@@ -14,16 +14,16 @@ var convert = function(s, numRows) {
         direction = 'down',
         arrs = [],
     result = '';
-    while(arrs.push([]) < numRows);
     for (let i = 0; i < s.length; i++) {
+        
+            arrs[row] ? arrs[row] += s[i] : arrs[row] = s[i];
         if (i / (numRows - 1) % 2 === 1) {
-            direction = 'up';
+            direction = 1;
         }
         else if (i / (numRows - 1) % 2 === 0) {
-            direction = 'down';
+            direction = 0;
         }
-        arrs[row][col] = s[i];
-     if (direction === 'up') {
+     if (direction === 1) {
         row--;
         col++;
     }
@@ -32,9 +32,8 @@ var convert = function(s, numRows) {
     }
 }
         
-    for (const arr of arrs) {
-        result += arr.join('');
+    for (const s of arrs) {
+        result += s;
     }
     return result;
 };
-console.log(convert("PSIPYAI", 3))
