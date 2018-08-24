@@ -14,6 +14,7 @@ Javascript Solutions to problems on LintCode
 | 8        | String to Integer (atoi)                          | Medium       |
 | 10       | Regular Expression Matching                       | Difficult    |
 | 13       | Roman to Integer                                  | Easy         |
+| 21       | [Merge Two Sorted Lists](#6-zigzag-conversion)    | Easy         |
 | 26       | Remove Duplicates from Sorted Array               | Easy         |
 | 142      | [Linked List Cycle II](#142-linked-list-cycle-ii) | Medium       |
 | 191      | Number of 1 Bits                                  | Easy         |
@@ -23,6 +24,10 @@ Javascript Solutions to problems on LintCode
 ## [6. ZigZag Conversion](https://leetcode.com/problems/string-to-integer-atoi)
 
 将字符串转换成zigzag的形态，然后按照从左到右的顺序输出新的字符串，设定方向和当前行序列，在转折点处改变方向，方向向上降低行序列，向下则相反。每行的字符进行拼接，最后拼接得到结果字符串。(tips:使用数组的fill方法初始化数组，建立长度确定，初始值为''的数组。)
+
+## [21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists)
+
+运用递归解决了合并两个有序链表的问题。
 
 ## [142. Linked LIst Cycle II](https://leetcode.com/problems/linked-list-cycle-ii)
 
